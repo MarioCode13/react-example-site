@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+.SignUp {
+  margin: 50px 0px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App-logo {
+  -webkit-animation: App-logo-spin infinite 20s linear;
+          animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@-webkit-keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.login {
+  width: 27em;
+  height: 40em;
+  min-height: 44em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5px;
+  position: relative;
+  z-index: 99;
+}
+
+.login .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1c2237;
+  -webkit-box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.2);
+          box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.2);
+  border-radius: 4px;
+  position: relative;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  padding: 17px 10px;
+}
+
+.login .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30%;
+  background-color: #276afb;
+  width: 100%;
+  position: absolute;
+  right: -34%;
+  border-radius: 6px;
+  z-index: 1;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.281);
+          box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.281);
+}
+
+.login .right-side.right {
+  right: -18%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.login .right-side.right .text {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.login .right-side.right:hover {
+  right: -21%;
+  -webkit-box-shadow: 0px 0px 12px 0.8px #3474dbb2;
+          box-shadow: 0px 0px 12px 0.8px #3474dbb2;
+  background-color: #384883;
+  color: #1c2237;
+}
+
+.login .right-side.left {
+  right: 17%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.login .right-side.left .text {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  margin-left: 10px;
+}
+
+.login .right-side.left:hover {
+  right: 20%;
+  -webkit-box-shadow: 0px 0px 12px 0.8px #3474dbb2;
+          box-shadow: 0px 0px 12px 0.8px #3474dbb2;
+  background-color: #384883;
+  color: #1c2237;
+}
+
+.login .right-side .text {
+  font-size: 21px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0 5px;
+}
+
+.btn-signup {
+  padding: 12px 64px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  background-color: #276afb;
+  color: #fff;
+  border-radius: 3px;
+  -webkit-transition: all 5ms linear;
+  transition: all 5ms linear;
+  cursor: pointer;
+}
+
+.btn-signup:hover {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  border: 1px solid #7d5df1;
+  -webkit-box-shadow: 0px 0px 12px 0.8px #3474dbb2;
+          box-shadow: 0px 0px 12px 0.8px #3474dbb2;
+  background-color: #62d5fc;
+  color: #1c2237;
+}
+
+.btn-signup:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 991px) {
+  .login {
+    width: 24em;
+    height: 40em;
+    min-height: 44em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 5px;
+    position: relative;
+    z-index: 99;
+  }
+  .login .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #1c2237;
+    -webkit-box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.2);
+            box-shadow: 0px 0px 12px 2px rgba(15, 15, 15, 0.2);
+    border-radius: 4px;
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    padding: 15px 8px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .login {
+    width: 16.5em;
+    height: 40em;
+    min-height: 44em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 5px;
+    position: relative;
+    z-index: 99;
+  }
+  .login .right-side {
+    height: 25%;
+    width: 100%;
+    right: -34%;
+    border-radius: 6px;
+    z-index: 1;
+  }
+  .login .right-side.right {
+    right: -17%;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .login .right-side.right .text {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-right: -14px;
+  }
+  .login .right-side.left {
+    right: 17%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .login .right-side.left .text {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    margin-left: 2px;
+  }
+  .login .right-side .text {
+    font-size: 20px;
+    margin: 0px;
+  }
+}
+/*# sourceMappingURL=SignUp.css.map */
